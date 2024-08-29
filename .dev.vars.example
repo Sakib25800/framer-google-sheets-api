@@ -1,10 +1,10 @@
-CLIENT_ID=XXXXX
-CLIENT_SECRET=XXXX
+CLIENT_ID=XXXXXXXXXXXX
+CLIENT_SECRET=XXXXXXXXXXXX
 
 PLUGIN_URI=https://localhost:5173
-REDIRECT_URI=https://localhost:8787/redirect
+REDIRECT_URI=https://localhost:3001/redirect
 
 AUTHORIZE_ENDPOINT=https://accounts.google.com/o/oauth2/v2/auth
 TOKEN_ENDPOINT=https://oauth2.googleapis.com/token
 
-SCOPE=https://www.googleapis.com/auth/userinfo.profile
+SCOPE="https://www.googleapis.com/auth/spreadsheets.readonly https://www.googleapis.com/auth/drive.readonly"
